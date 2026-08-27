@@ -22,9 +22,9 @@ task.once("exit", (name) => {
     console.log(`system shutdown by ${name}`);
 });
 
-task.emit('greet',"Aviral Dwivedi");
+task.emit('greet',"Farhaad Ahmed");
 console.log();
-task.emit('greet',"Aryan Dubey");
+task.emit('greet',"Ganesh Patel");
 console.log();
 task.emit("exit","Manager");
 task.emit("exit","Employee");
